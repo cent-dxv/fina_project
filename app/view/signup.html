@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style> 
+ .container{
+          
+          margin: auto 0;
+      }
+      .fm{
+       margin-top: 75px;
+      }
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: red;
+            opacity: 1; /* Firefox */
+}
+</style> 
+
+<div class="container row justify-content-center "> 
+    <div class=" col-lg-4 col-md-6 col-sm-7 "> 
+
+   
+        <form class="fm " action= 'login' method =  'post'> 
+            <!-- <img class="mb-6" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+            <h1 class="h2 py-4 fw-normal fw-bolder font-Roboto ">create account</h1>
+            <div class="form-floating">
+                <input name="name" type="text" class="form-control my-1" id="floatingInput" placeholder="mister x">
+                <label for="floatingInput"> Full-Name </label>
+            </div>
+            <div class="form-floating">
+                <input name="sign_email" type="email" class="form-control my-1" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input name ="sign_password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+
+            <div class="checkbox py-3 pt-3 ">
+                <label>
+                    <input type="checkbox" value="candidate" name="user_type"> do u create a containt or form
+                </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">sign up</button>
+            <p class="mt-4 mb-3 text-muted">&copy; 2020–2024 agree to all legal term </p>
+        </form>
+    
+</div>
+</div>
+
+</body>
+</html>
