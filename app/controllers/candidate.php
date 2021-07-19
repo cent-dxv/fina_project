@@ -40,10 +40,10 @@ if (isset($_GET['question_text'])) {
 
     $controller->add_questionss($question_text, $question_type, $user_id, $option_1, $option_2, $option_3);
 
-    header("Cache-Control: no-cache");
-header("Pragma: no-cache");
+//     header("Cache-Control: no-cache");
+// header("Pragma: no-cache");
 
-header_remove(); 
+// header_remove(); 
     // header("location:candidate");
 
   } else {
@@ -53,10 +53,10 @@ header_remove();
     $option_1 = $_GET['option_1'];
 
     $controller->add_questionss($question_text, $question_type, $user_id, $option_1, "", "");
-    header("Cache-Control: no-cache");
-header("Pragma: no-cache");
+//     header("Cache-Control: no-cache");
+// header("Pragma: no-cache");
 
-header_remove(); 
+// header_remove(); 
     // header("location:candidate");
   }
 }

@@ -58,8 +58,10 @@
 
   <style>
     body {
-      background-color: #ffffffff;
-      /* FCF6F5FF*/
+      background-color:rgb(229, 236, 246);
+       /* #FCF6F5FF; */
+      /* #ffffffff; */
+      /* #FCF6F5FF*/
     }
   </style>
   <!--   display alrady created cards -->

@@ -8,7 +8,7 @@ class elements
 
 echo <<<_end
           <div class="container " id="newdiv">
-              <div class="d-flex my-3">
+              <div class="d-flex ">
                 <i class="bi bi-square mt-2 mx-2" style="font-size:20px"></i>
                 <input name = "option_1" form = "question_form" class="form-control mx-2 form_box" type="text" placeholder="Check Box Option #" aria-label="default input examp">
               </div>
