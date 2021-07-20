@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\recordes"
+		},
+		{
+			"path": "..\\random_guy"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "recordes"
+	}
+}

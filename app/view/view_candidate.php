@@ -23,9 +23,12 @@
       /* background-color: rgb(228, 110, 208); */
       border-bottom: 5px solid #EC4D37;
     }
+    .bg{
+      background:#FFFFFF;
+    }
   </style>
   <!-- heading and titles -->
-  <div class="jumbotron bg-dark text-light">
+  <div class="jumbotron bg text-dark mb-5 ">
     <div class="container ">
       <div class="container d-flex justify-content-start ">
         <div>
@@ -58,10 +61,12 @@
 
   <style>
     body {
-      background-color:rgb(229, 236, 246);
+      background-color: #EEF3F9;
+      /* rgb(229, 236, 246); */
        /* #FCF6F5FF; */
       /* #ffffffff; */
       /* #FCF6F5FF*/
+     
     }
   </style>
   <!--   display alrady created cards -->
@@ -76,7 +81,7 @@
 
   <!--   card  -->
   <div class="container d-flex justify-content-center">
-    <div class="col-lg-8 justify-content-center">
+    <div class="col-lg-9 justify-content-center">
       <div class="card mt-5 m-3 ">
         <!-- card head  -->
         <?php $defualt = "question type"  ?>

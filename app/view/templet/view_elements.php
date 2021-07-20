@@ -37,6 +37,7 @@ class view_elements{
       }
 
       
+      
       function Check_Box($question,$question_id){
        
       $result = $this->controller->values($question_id);
@@ -52,9 +53,13 @@ class view_elements{
 $i = 1;
 
         echo <<<_end
+        <style> .card{
+        border: 0;
+     
+        }</style>
         <div class="container d-flex justify-content-center">
-        <div class="col-lg-8 justify-content-center">
-        <div class="card mt-5 m-3 ">
+        <div class="col-lg-9 justify-content-center">
+        <div class="card mt-1 m-3  shadow-sm p-3">
         <!-- card head  -->
 
        
@@ -144,8 +149,8 @@ $i = 1;
 
         echo <<<_end
         <div class="container d-flex justify-content-center">
-        <div class="col-lg-8 justify-content-center">
-        <div class="card mt-5 m-3 ">
+        <div class="col-lg-9 justify-content-center">
+        <div class="card mt-1 m-3 ">
         <!-- card head  -->
 
        
@@ -229,8 +234,8 @@ $i = 1;
   
           echo <<<_end
           <div class="container d-flex justify-content-center">
-          <div class="col-lg-8 justify-content-center">
-          <div class="card mt-5 m-3 ">
+          <div class="col-lg-9 justify-content-center">
+          <div class="card mt-1 m-3 ">
           <!-- card head  -->
   
          
@@ -297,8 +302,8 @@ $i = 1;
   
           echo <<<_end
           <div class="container d-flex justify-content-center">
-          <div class="col-lg-8 justify-content-center">
-          <div class="card mt-5 m-3 ">
+          <div class="col-lg-9 justify-content-center">
+          <div class="card mt-1 m-3 ">
           <!-- card head  -->
   
          
